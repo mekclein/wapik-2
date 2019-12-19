@@ -1,0 +1,157 @@
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.custom-menu ul li a {
+	    float: right;
+	}
+	.custom-nav h6{
+		display: none;
+	}
+	.custom-nav strong{
+    display: none;
+	}
+	.custom-nav p{
+		display: none;
+	}
+	.banner-content{
+    margin: 100px 0;
+    text-align: center;
+	}
+	.banner-content h1{
+    font-size: 30px;
+	}
+	.banner-content p{
+    font-size: 15px;
+}
+	.banner-button{
+    padding: 4px 12px;
+    font-size: 16px;
+    margin-top: 15px;
+	}
+	.feature-heading h1{
+    font-size: 24px;
+	}
+	.template-heading h1{
+    font-size: 24px;
+	}
+	.template-content h2{
+    font-size: 24px;
+	}
+	.pricing-heading h1{
+    font-size: 24px;
+	}
+	.details-content h1{
+    font-size: 24px;
+	}
+	.custom-card{}
+	.plan{
+		display: none;
+	}
+	.help-heading{
+		width: 100%;
+	}
+	.download-content{
+		text-align: center;
+	}
+	.download-content h1{
+    font-size: 20px;
+	}
+	.download-button{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 88px;
+	}
+	.info-address p{
+		margin: 0;
+	}
+	.info-details{
+		display: none;
+	}
+	.newsletter{
+    margin-top: 20px;
+	}
+	.newsletter h3{
+    font-size: 20px;
+	}
+	.newsletter p{
+		margin: 0;
+	}
+	.email input{
+		width: 55%;
+	}
+	.email a{
+    right: 48%;
+	}
+	.footer-content{
+	text-align: center;
+	}
+	.social-icon ul{
+    justify-content: center;
+    padding: 0;
+	}
+	.template{
+		display: none;
+	}
+	
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.custom-menu ul li a {
+	    float: right;
+	}
+	.custom-nav h6{
+	}
+	.custom-card{}
+	.plan{
+		display: none;
+	}
+	.details-content h1{}
+	.help-heading{
+		width: 100%;
+	}
+	.download-content{
+		text-align: center;
+	}
+	.download-content h1{}
+	.download-button{}
+	.info-details{
+		display: none;
+	}
+	.template{
+		display: none;
+	}
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.custom-menu ul li a {
+	    float: right;
+	}
+	.custom-nav h6{
+
+	}
+	.custom-nav strong{}
+	.custom-nav p{
+    width: 63%;
+    padding-top: 4px;
+	}
+	.custom-card h5{
+		font-size: 40px;
+	}
+	.plan{
+		display: none;
+	}
+	.download-content{}
+	.download-content h1{
+    font-size: 22px;
+	}
+	.template{
+		display: none;
+	}
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
